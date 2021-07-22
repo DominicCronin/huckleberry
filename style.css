@@ -7,6 +7,54 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: hsl(0deg, 0%, 60%);
 }
 
-/* Add styles here! */
+header {
+  padding: 32px 96px;
+  background-color: white;
+  border-bottom: 4px solid hsl(0deg, 0%, 50%);
+}
+
+.card {
+  margin: 64px 128px;
+  background-color: white;
+  padding: 16px;
+  border-bottom: 2px solid hsl(0deg, 0%, 30%)
+  
+}
+.card h2 {
+  background-color: hsl(45deg, 100%, 50%);
+  margin-top: -8px;
+  border-bottom: 4px solid hsl(45deg, 100%, 40%);
+  padding: 12px 24px;
+}
+
+.indented-heading {
+  margin-left: -24px;
+  width: fit-content;
+  font-size: 1rem;
+}
+
+.intro-chunk {
+  max-width: 288px;
+  margin-left: 48px;
+}
+
+.intro-chunk strong{
+  color:hsl(160deg, 100%, 30%);
+}
+
+.intro-chunk .title {
+  font-size: 1.5rem;
+}
+
+.max-width-wrapper {
+  max-width: fit-content;
+}
+
+/* TODO - figure out how that 
+indented heading stops indenting on
+smaller formats. It's not a margin 
+collapse, because horizontal margins 
+don't. Hmm....  */
